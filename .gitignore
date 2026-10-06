@@ -1,0 +1,53 @@
+# ===== Unreal Engine Generated Folders =====
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+.idea/
+
+# Plugin generated build output
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# ===== OS / Editor files =====
+.DS_Store
+Thumbs.db
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.opendb
+
+# ===== Ignore everything by default =====
+*
+
+# ===== White-list: allow directories to be scanned =====
+!*/
+
+# Allow git files and project descriptor
+!.git*
+!*.uproject
+!*.uplugin
+
+# Source code and config
+!/Source/**
+!/Config/**
+!/Plugins/**
+
+# Only allow Unreal asset files from Content
+!/Content/**/*.uasset
+!/Content/**/*.umap
+
+# Raw source assets
+!/RawContent/**
+
+# Keep icon files in Build
+!Build/**/*.ico
+
+# ===== Re-ignore VS host manifest =====
+*.vshost.exe.manifest
